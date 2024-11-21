@@ -117,6 +117,44 @@ fun RencanaStudyview(
                     fontSize = 12.sp,
                     fontWeight = FontWeight.Light
                 )
+                Spacer(modifier = Modifier.padding(8.dp))
+                DynamicSelectedTextField(
+                    selectedValue = chosenDropdown,
+                    options = MataKuliah.options,
+                    label = "Mata Kuliah",
+                    onValueChangedEvent = {
+                        chosenDropdown = it
+                    }
+                )
+                Spacer(modifier = Modifier.padding(8.dp))
+                Text(
+                    text = "Pilih Kelas Belajar",
+                    fontWeight = FontWeight.Bold
+                )
+                Text(
+                    text = "Silahkan pilih kelas dari mata kuliah yang anda inginkan",
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Light
+                )
+                Spacer(modifier = Modifier.padding(8.dp))
+                DynamicSelectedTextField(
+                    selectedValue = chosenDropdown,
+                    options = MataKuliah.options,
+                    label = "Mata Kuliah",
+                    onValueChangedEvent = {
+                        chosenDropdown = it
+                    }
+                )
+                Spacer(modifier = Modifier.padding(8.dp))
+                Text(
+                    text = "Pilih Kelas Belajar",
+                    fontWeight = FontWeight.Bold
+                )
+                Text(
+                    text = "Silahkan pilih kelas dari mata kuliah yang anda inginkan",
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Light
+                )
             }
         }
     }
