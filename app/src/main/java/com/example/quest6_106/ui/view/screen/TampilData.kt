@@ -114,6 +114,30 @@ fun TampilDataView(
                     Text(text = mahasiswa.nama,
                         fontWeight = FontWeight.Light)
                 }
+
+                Spacer(modifier = Modifier.padding(top = 50.dp))
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(text = "Mata Kuliah Yang Diambil :",
+                        fontWeight = FontWeight.Light)
+                    Text(text = rencanastudy.namaMK)
+                }
+                Spacer(modifier = Modifier.padding(top = 20.dp))
+                Row {
+                    Text(text = "Kelas : " + rencanastudy.kelas,
+                        fontWeight = FontWeight.Light)
+                }
+
+                Spacer(modifier = Modifier.padding(top = 30.dp))
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+
+                }
             }
         }
     }
