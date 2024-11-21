@@ -36,6 +36,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.quest6_106.R
+import com.example.quest6_106.data.RuangKelas
 
 @Composable
 fun RencanaStudyview(
