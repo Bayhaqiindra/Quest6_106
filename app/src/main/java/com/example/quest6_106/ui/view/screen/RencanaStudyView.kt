@@ -38,6 +38,7 @@ import androidx.compose.ui.unit.sp
 import com.example.quest6_106.R
 import com.example.quest6_106.data.MataKuliah
 import com.example.quest6_106.data.RuangKelas
+import com.example.quest6_106.model.Mahasiswa
 
 @Composable
 fun RencanaStudyview(
