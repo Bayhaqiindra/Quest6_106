@@ -39,6 +39,7 @@ import com.example.quest6_106.R
 import com.example.quest6_106.data.MataKuliah
 import com.example.quest6_106.data.RuangKelas
 import com.example.quest6_106.model.Mahasiswa
+import com.example.quest6_106.ui.view.widget.DynamicSelectedTextField
 
 @Composable
 fun RencanaStudyview(
