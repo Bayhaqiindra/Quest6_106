@@ -91,7 +91,20 @@ fun TampilDataView(
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.Top
                 ) {
+                    Column {
+                        Text(
+                            text = "NIM",
+                            fontSize = 20.sp,
 
+                            )
+                        Text(text = mahasiswa.nim,
+                            fontWeight = FontWeight.Light)
+
+                    }
+                    Text(
+                        text = mahasiswa.email,
+                        fontWeight = FontWeight.Light
+                    )
                 }
             }
         }
