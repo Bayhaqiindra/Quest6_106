@@ -106,6 +106,14 @@ fun TampilDataView(
                         fontWeight = FontWeight.Light
                     )
                 }
+                Column(modifier = Modifier.padding(bottom = 16.dp)) {
+                    Text(
+                        text = "Nama",
+                        fontSize = 20.sp,
+                    )
+                    Text(text = mahasiswa.nama,
+                        fontWeight = FontWeight.Light)
+                }
             }
         }
     }
